@@ -307,9 +307,7 @@ body > .container {
     padding-left: 0;
     padding-bottom: 5px;
     margin: 0;
-}
-#sidebar .toctree-l3, #sidebar .toctree-l2, #sidebar ul.unstyled {
-    display: none;
+    font-weight: bold;
 }
 #sidebar .caption, .sidebar-xs .caption {
     padding: 10px 30px 5px 0;
@@ -555,7 +553,7 @@ div.figure .caption {
 }
 @media screen and (min-width: 768px) {
     #search-box {
-        width: 70%;
+        width: 100%;
     }
 }
 /* Guides */

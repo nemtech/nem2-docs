@@ -6,6 +6,16 @@ Browse the documentation to start integrating blockchain technology into your pr
 
 .. note:: |codename|'s **MAIN_NET** has not been released yet. The network specification, documentation, and tooling presented may suffer variations before the network launch. See here the complete roadmap for the public launch: `Symbol Launch Plan <https://forum.nem.io/t/symbol-launch-reporting-single-source-of-information/24863/9>`_.
 
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+
+    getting-started/index
+    guides/index
+    concepts/index
+    references/index
+    contribute/index
+
 ***************
 Getting Started
 ***************
@@ -77,81 +87,3 @@ Continue: :doc:`Setting up your workstation <getting-started/setup-workstation>`
 .. |open-source| raw:: html
 
    <a href="https://github.com/nemtech" target="_blank">open source</a>
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: Getting Started
-
-    getting-started/what-is-symbol
-    getting-started/setup-workstation
-    getting-started/first-application
-    guides/migration/migrating-from-nem-to-symbol
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: How-To Guides
-
-    guides/account/creating-an-account
-    guides/transfer/sending-a-transfer-transaction
-    guides/mosaic/creating-a-mosaic
-    guides/multisig/creating-a-multisig-account
-    guides/network/running-a-test-net-node
-    guides/network/creating-a-private-test-net
-    More guides <https://docs.symbolplatform.com/guides/category.html>
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: Built-in Features
-
-    concepts/overview
-    concepts/account
-    concepts/mosaic
-    concepts/namespace
-    concepts/metadata
-    concepts/transfer-transaction
-    concepts/aggregate-transaction
-    concepts/account-restriction
-    concepts/mosaic-restriction
-    concepts/multisig-account
-    concepts/cross-chain-swaps
-    concepts/plugin
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: Protocol
-
-    concepts/cryptography
-    concepts/block
-    concepts/transaction
-    concepts/fees
-    concepts/receipt
-    concepts/data-validation
-    concepts/consensus-algorithm
-    concepts/harvesting
-    concepts/inflation
-    concepts/node
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: References
-
-    references/overview
-    server
-    api
-    sdk
-    cli
-    wallets
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: Help
-
-    contribute/community
-    contribute/contributing
-    contribute/glossary
