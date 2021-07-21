@@ -9,3 +9,4 @@ Guides related to :doc:`transfer transactions <../../concepts/transfer-transacti
 
     sending-a-transfer-transaction
     sending-an-encrypted-message
+    signing-transaction-offline
